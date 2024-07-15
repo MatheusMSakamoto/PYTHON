@@ -1,0 +1,10 @@
+#ESCREVA UM PROGRAMA QUE DECLARE INTEIRO, COMEÇANDO POR 0, DE 1000 EM 1000
+#IMPRIMA NA TELA SEU VALOR, ATÉ QUE SEJA 100000
+for i in range(0,101000,1000):
+    print(i)
+
+i=0
+cont=101000
+while i < cont:
+    print(i)
+    i+=1000
